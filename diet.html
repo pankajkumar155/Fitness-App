@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/diet.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <title>diet</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #629110;">
+      <a class="navbar-brand" href="">Fitness</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-list">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="navbar-list">
+            <a class="nav-link" href="diet.html">Diet</a>
+          </li>
+          <li class="navbar-list">
+            <a class="nav-link" href="bmi.html">BMI</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+ <div class="middle">
+  <form name="search" class="search" id="search">
+    <h3 class="mid-heading">Nutrition Analysis </h3>
+    <h2 class="small-heading">Search an ingredient with quantity and measure</h2>
+
+    <input type="text" name="item" id="item" placeholder="item name (eg: 1 apple)">
+    <button onclick="searchItem()" class="search-button">Search</button>
+
+
+  </form>
+ </div>
+
+<div id="bottom" >
+  <h1 id="heading" style="text-align: center;"></h1>
+  <div class="row">
+    <div class="make-flex col-md-4">
+      <h4 class="info" id="calorie"></h4>
+      <h4 class="info" id="protein"></h4>
+      <h4 class="info" id="lipid"></h4>
+      <h4 class="info" id="carbs"></h4>
+      <h4 class="info" id="water"></h4>
+      <h4 class="info" id="fibre"></h4>
+      <h4 class="info" id="sugar"></h4>
+
+    </div>
+
+    <div class="make-flex col-md-4">
+      <h4 class="info" id="vit-a"></h4>
+      <h4 class="info" id="vit-b6"></h4>
+      <h4 class="info" id="vit-b12"></h4>
+      <h4 class="info" id="vit-c"></h4>
+      <h4 class="info" id="vit-d"></h4>
+      <h4 class="info" id="vit-e"></h4>
+      <h4 class="info" id="vit-k"></h4>
+    </div>
+
+    <div class="image col-md-4">
+      <img src="images/10.gif" style="height: 400px; width: 200px; margin: auto"  alt="">
+    </div>
+  </div>
+
+</div>
+
+
+   <footer class="footer-section" id="footer">
+           <div class="fluid-container">
+           <a href="https://twitter.com/twitter?lang=en"><i class="fab fa-twitter icon2 fa-2x"></i></a>
+           <a href="https://www.facebook.com/"><i class="fab fa-facebook-f icon2 fa-2x"></i></a>
+           <a href="https://www.instagram.com"><i class="fab fa-instagram icon2 fa-2x"></i></a>
+           <a href="https://www.pinterest.com/"><i class="fab fa-pinterest icon2 fa-2x"></i></a>
+           <p>© Copyright 2021 Neha Raliya</p>
+
+         </div>
+         </footer>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="js/diet.js" charset="utf-8"></script>
+
+  </body>
+</html>
